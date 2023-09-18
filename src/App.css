@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.linear-1 {
+  /* 80FF02 */
+  background: linear-gradient(
+    -140deg,
+    rgba(128, 255, 2, 1),
+    rgba(89, 255, 205, 1)
+  );
+}
+.linear-2 {
+  /* 80FF02 */
+  background: linear-gradient(-45deg, #02bccc, #60f23f);
+}
+.linear-3 {
+  background: linear-gradient(-45deg, #ccff02, #59ffcd);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.webkit-text {
+  -webkit-background-clip: text;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.border-gradient {
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.border-1 {
+  background-image: linear-gradient(-45deg, #ccff02, #59ffcd);
+  position: relative;
+  border-radius: 50px;
+}
+.border-1::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #111111;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 50px;
+}
+.mborder-2 {
+  background-image: linear-gradient(to bottom, #CCFF02 44%, #111111 58%);
+  position: relative;
+  border-radius: 15px;
+}
+.mborder-2::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #212121;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.outline-text-1{
+  /* 807E7E */
+  -webkit-text-stroke: 1px #807E7E;
+    -webkit-text-fill-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-hero-bg{
+  background-image: url("./images/home-hero-bg.png");
 }
+
+.home-video-bg{
+  background-image: url("./images/home-video-bg.png");
+}
+
+.ai-slider .swiper-slide { width: auto !important}
