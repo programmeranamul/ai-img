@@ -6,6 +6,11 @@ import AIImgTextSlider from './../components/Home/AIImgTextSlider';
 import WorkStateMent from '../components/Home/WorkStateMent';
 import YourDream from '../components/Home/YourDream';
 import AIImgSlider from '../components/Home/AIImgSlider';
+import Faq from '../components/common/Faq';
+import NewsArticle from '../components/Home/NewsArticle';
+import Subscribe from '../components/common/Subscribe';
+import ImgSlider from '../components/common/ImgSlider';
+import Footer from '../components/common/Footer';
 
 const pageList = [
     {
@@ -85,12 +90,17 @@ export default function HomePage() {
             <EasyWay />
             <AIImgTextSlider />
             <Video />
-            <WorkStateMent />
+            <WorkStateMent />  
             <YourDream />
             <AIImgSlider />
+            <Faq />
+            <NewsArticle />
+            <AIImgTextSlider />
+            <Subscribe />
+            <ImgSlider />
+            <Footer />
+        
 
-            <div className='pb-[50px] bg-black'></div>
-         
 
         </>
 

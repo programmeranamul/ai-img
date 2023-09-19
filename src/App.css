@@ -7,11 +7,14 @@
   );
 }
 .linear-2 {
-  /* 80FF02 */
   background: linear-gradient(-45deg, #02bccc, #60f23f);
 }
 .linear-3 {
   background: linear-gradient(-45deg, #ccff02, #59ffcd);
+}
+
+.linear-4{
+  background: linear-gradient(44deg, #59ffcd 10%,  #ccff02 37%);;
 }
 
 .webkit-text {
