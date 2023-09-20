@@ -83,3 +83,7 @@
 .reflection-overlay{
   background: linear-gradient(180deg, transparent 52%, rgba(17,17,17,1) 88%);
 }
+
+.m-flex{
+  flex: 0 0 auto;
+}

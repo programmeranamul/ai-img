@@ -18,37 +18,9 @@ import heroimg4 from "../images/hero-img-1.png"
 import heroimg5 from "../images/hero-img-1.png"
 import heroimg6 from "../images/hero-img-1.png"
 import heroimg7 from "../images/hero-img-1.png"
+import Header from '../components/common/Header';
 
-const pageList = [
-    {
-        pageName: "Home",
-        pageUrl: "/"
-    },
-    {
-        pageName: "About",
-        pageUrl: "/"
-    },
-    {
-        pageName: "Services",
-        pageUrl: "/"
-    },
-    {
-        pageName: "Pricing",
-        pageUrl: "/"
-    },
-    {
-        pageName: "Team",
-        pageUrl: "/"
-    },
-    {
-        pageName: "Blog",
-        pageUrl: "/"
-    },
-    {
-        pageName: "Contacts",
-        pageUrl: "/"
-    },
-]
+
 
 const tagList = ["Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "TXAA", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading"]
 
@@ -95,26 +67,13 @@ export default function HomePage() {
     return (
 
         <>
-
-            <div className="home-hero-bg bg-cover relative pb-[400px]  overflow-hidden">
+            <div className="home-hero-bg bg-cover relative pb-[300px] md:pb-[350px]  overflow-hidden">
                 <div className='container'>
-                    <div className='flex justify-between h-[84px] items-center'>
-                        <a href='/'><img src={logo} alt="" /></a>
-                        <div className='flex items-center gap-x-[40px]'>
+                    <Header />
 
-                            {pageList.map((el, i) => <a className='text-[14px] text-white font-bold' key={i} href={el.pageUrl}>{el.pageName}</a>)}
-
-                        </div>
-
-                        <div>
-                            <a className='text-[14px] inline-block mr-5 text-white font-bold' href='/'>Log in</a>
-                            <a className='text-[#212121] h-[40px] w-[130px] inline-flex items-center justify-center bg-[#FFFFFF] text-[14px] font-bold rounded-full ' href='/'>Get started</a>
-                        </div>
-                    </div>
-
-                    <div>
+                    <div className='pt-[90px]'>
                         <div className='max-w-[917px] mx-auto'>
-                            <h1 className='text-[80px] font-bold leading-[94px] tracking-[-1px] text-white text-center'><span className='block'>Generate image</span>
+                            <h1 className='text-[50px] lg:text-[80px] font-bold leading-[1.2] lg:leading-[94px] tracking-[-1px] text-white text-center'><span className='block'>Generate image</span>
                                 <span className='block'>with Zex.ai</span></h1>
                             <p className='text-[18px] mt-[15px] mb-[30px] font-semibold text-white text-center '>Create Anything - AI With No Restrictions.</p>
 
@@ -126,11 +85,11 @@ export default function HomePage() {
                 </div>
 
 
-                <div className='pt-[50px] absolute bottom-[-55px] w-full'>
-                    <div className='flex  gap-x-[30px] justify-center'>
+                <div className='pt-[10px] absolute bottom-[-55px] w-full'>
+                    <div className='flex  gap-x-[30px] justify-center '>
                         {
-                            imgList.map((el, i) => <div key={i} className={`order-${el.order} ${el.marginClass}`}>
-                                <img className=' img-reflection mt-[-30px]' src={heroimg3} alt='' />
+                            imgList.map((el, i) => <div key={i} className={`m-flex order-${el.order} ${el.marginClass}`}>
+                                <img className=' img-reflection mt-[-30px] ' src={heroimg3} alt='' />
                             </div>)
                         }
 
