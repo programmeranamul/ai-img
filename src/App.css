@@ -74,3 +74,12 @@
 }
 
 .ai-slider .swiper-slide { width: auto !important}
+
+
+.img-reflection{
+  -webkit-box-reflect: below 20px;
+}
+
+.reflection-overlay{
+  background: linear-gradient(180deg, transparent 52%, rgba(17,17,17,1) 88%);
+}

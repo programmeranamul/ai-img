@@ -11,6 +11,13 @@ import NewsArticle from '../components/Home/NewsArticle';
 import Subscribe from '../components/common/Subscribe';
 import ImgSlider from '../components/common/ImgSlider';
 import Footer from '../components/common/Footer';
+import heroimg1 from "../images/hero-img-1.png"
+import heroimg2 from "../images/hero-img-1.png"
+import heroimg3 from "../images/hero-img-1.png"
+import heroimg4 from "../images/hero-img-1.png"
+import heroimg5 from "../images/hero-img-1.png"
+import heroimg6 from "../images/hero-img-1.png"
+import heroimg7 from "../images/hero-img-1.png"
 
 const pageList = [
     {
@@ -45,12 +52,51 @@ const pageList = [
 
 const tagList = ["Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "TXAA", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading"]
 
+const imgList = [
+    {
+        imgSrc: heroimg1,
+        order: 1,
+        marginClass: "mt-[-50px]"
+
+    },
+    {
+        imgSrc: heroimg2,
+        order: 2,
+        marginClass: "mt-[-150px]"
+    },
+    {
+        imgSrc: heroimg3,
+        order: 3,
+        marginClass: "mt-[-50px]"
+    },
+    {
+        imgSrc: heroimg4,
+        order: 4,
+        marginClass: ""
+    },
+    {
+        imgSrc: heroimg5,
+        order: 5,
+        marginClass: "mt-[-50px]"
+    },
+    {
+        imgSrc: heroimg6,
+        order: 6,
+        marginClass: "mt-[-150px]"
+    },
+    {
+        imgSrc: heroimg7,
+        order: 7,
+        marginClass: "mt-[-50px]"
+    },
+]
+
 export default function HomePage() {
     return (
 
         <>
 
-            <div className="home-hero-bg bg-cover">
+            <div className="home-hero-bg bg-cover relative pb-[400px]  overflow-hidden">
                 <div className='container'>
                     <div className='flex justify-between h-[84px] items-center'>
                         <a href='/'><img src={logo} alt="" /></a>
@@ -78,6 +124,22 @@ export default function HomePage() {
                         </div>
                     </div>
                 </div>
+
+
+                <div className='pt-[50px] absolute bottom-[-55px] w-full'>
+                    <div className='flex  gap-x-[30px] justify-center'>
+                        {
+                            imgList.map((el, i) => <div key={i} className={`order-${el.order} ${el.marginClass}`}>
+                                <img className=' img-reflection mt-[-30px]' src={heroimg3} alt='' />
+                            </div>)
+                        }
+
+                    </div>
+                </div>
+
+                <div className='h-[200px] w-full absolute bottom-0 reflection-overlay'>
+                </div>
+
             </div>
 
             <div className='overflow-hidden'>
@@ -90,7 +152,7 @@ export default function HomePage() {
             <EasyWay />
             <AIImgTextSlider />
             <Video />
-            <WorkStateMent />  
+            <WorkStateMent />
             <YourDream />
             <AIImgSlider />
             <Faq />
@@ -99,7 +161,7 @@ export default function HomePage() {
             <Subscribe />
             <ImgSlider />
             <Footer />
-        
+
 
 
         </>
