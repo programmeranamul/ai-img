@@ -13,12 +13,12 @@ function Video() {
             <div className='home-video-bg bg-no-repeat bg-cover'>
                 <div className='container pt-[80px]'>
                     <div>
-                        <div className='flex mb-[48px] gap-x-[30px] items-center'>
-                            <div className='w-[50%]'>
+                        <div className='flex flex-col lg:flex-row mb-[30px] lg:mb-[48px] gap-x-[30px] items-center'>
+                            <div className='w-full lg:w-[50%]'>
                                 <h5 class="text-transparent uppercase bg-clip-text linear-2 text-[14px] font-semibold webkit-text">Welcome</h5>
-                                <h2 class="text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">Crafted with quality and creativity.</h2>
+                                <h2 class="text-[30px] lg:text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">Crafted with quality and creativity.</h2>
                             </div>
-                            <div className='w-[50%]'>
+                            <div className='w-full lg:w-[50%]'>
                                 <p class="text-[#FAFAFB] text-[16px]">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
                             </div>
                         </div>

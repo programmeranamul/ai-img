@@ -19,7 +19,7 @@ const data = [sliderImg1, sliderImg2, sliderImg3, sliderImg4, sliderImg5, slider
 
 function ImgSlider() {
     return (
-        <div className='pt-[60px] pb-[120px] bg-[#111111]'>
+        <div className='pt-[40px] md:pt-[60px] pb-[80px] md:pb-[120px] bg-[#111111]'>
             <div>
                 <Swiper
                     slidesPerView={"auto"}

@@ -33,22 +33,22 @@ const data = [
 
 function YourDream() {
     return (
-        <div className='bg-[#111111] pt-[120px] pb-[65px]'>
+        <div className='bg-[#111111] pt-[80px] lg:pt-[120px] pb-[65px]'>
             <div className='container'>
-                <div className='text-center mb-[48px]'>
+                <div className='text-center mb-[38px] lg:mb-[48px]'>
                     <h5 className="text-transparent uppercase bg-clip-text linear-2 text-[14px] font-semibold webkit-text">FEATURES</h5>
-                    <h2 className="text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">Create your dream with Ai</h2>
+                    <h2 className="text-[35px] lg:text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">Create your dream with Ai</h2>
                 </div>
-                <div className='grid grid-cols-4 gap-x-[30px]'>
+                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-x-[30px] gap-y-[30px]'>
                     {
                         data.map((el, i) => <div key={i}>
-                            <div className={`px-[30px] py-[48px] ${el.down? "mt-[40px]" : ""} mborder-2 relative`}>
+                            <div className={`px-[20px] md:px-[30px] py-[35px] md:py-[48px] ${el.down? "lg:mt-[40px]" : ""} h-full  mborder-2 relative`}>
                                 <div className='z-[9] relative'>
-                                <div className='mb-[60px]'>
+                                <div className='mb-[50px] md:mb-[60px]'>
                                     <img src={el.icon} alt={el.title} />
                                 </div>
                                 <div>
-                                    <h3 className='text-white text-[30px] mb-[20px] leading-[38px] font-bold'>{el.title}</h3>
+                                    <h3 className='text-white text-[25px] md:text-[30px] mb-[10px] md:mb-[20px] leading-[1.1] md:leading-[38px] font-bold'>{el.title}</h3>
                                     <p className='text-[#F5F5F5] leading-[26px] text-[16px]'>{el.text}</p>
                                 </div>
                                 </div>

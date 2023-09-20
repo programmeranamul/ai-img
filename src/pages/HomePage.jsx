@@ -19,10 +19,11 @@ import heroimg5 from "../images/hero-img-1.png"
 import heroimg6 from "../images/hero-img-1.png"
 import heroimg7 from "../images/hero-img-1.png"
 import Header from '../components/common/Header';
+import RunningTextTag from '../components/Home/RunningTextTag';
 
 
 
-const tagList = ["Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "TXAA", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading", "Color Grading"]
+
 
 const imgList = [
     {
@@ -100,14 +101,7 @@ export default function HomePage() {
                 </div>
 
             </div>
-
-            <div className='overflow-hidden'>
-                <div className='flex bg-[#111111] item-center gap-x-[20px] '>
-                    {
-                        tagList.map((el, i) => <div className='text-white inline-block px-[15px] rounded-[50px] font-semibold text-[14px] py-[8px] bg-[#212121] whitespace-nowrap' key={i}>{el}</div>)
-                    }
-                </div>
-            </div>
+            <RunningTextTag />
             <EasyWay />
             <AIImgTextSlider />
             <Video />
@@ -116,7 +110,7 @@ export default function HomePage() {
             <AIImgSlider />
             <Faq />
             <NewsArticle />
-            <AIImgTextSlider />
+            <AIImgTextSlider  />
             <Subscribe />
             <ImgSlider />
             <Footer />

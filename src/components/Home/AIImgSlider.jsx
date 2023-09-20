@@ -40,16 +40,16 @@ function AIImgSlider() {
     return (
         <div className='bg-[#111111]'>
             <div className='container'>
-                <div className='flex items-center '>
-                    <div className='w-[35%]'>
+                <div className='flex flex-col lg:flex-row items-center '>
+                    <div className='w-full lg:w-[35%]'>
                         <h5 class="text-transparent uppercase bg-clip-text linear-2 text-[14px] font-semibold webkit-text">OUR PORTFOLIO</h5>
-                        <h2 class="text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">AI images</h2>
+                        <h2 class="text-[35px] mb-[15px] lg:mb-0 lg:text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">AI images</h2>
                     </div>
-                    <div className='w-[35%]'>
+                    <div className='w-full lg:w-[35%] mb-[20px] lg:mb-0'>
                         <p class="text-[#DADADA] text-[16px] ">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
                     </div>
 
-                    <div className='w-[30%] text-right'>
+                    <div className='w-full lg:w-[30%] lg:text-right'>
                         <Link to='/' class="border-1 inline-flex h-[46px] w-[175px] p-[2px] rounded-full   border-gradient" >
                             <div class="z-[999] w-full h-full flex items-center justify-center">
                                 <span class="text-transparent  inline-block bg-clip-text webkit-text linear-3 font-bold text-[16px]">View all</span>
