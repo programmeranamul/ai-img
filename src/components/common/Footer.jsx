@@ -73,7 +73,7 @@ function Footer() {
                     <div className='w-full lg:w-[60%]'>
                         <div className='text-center lg:text-left mb-[30px]'>
                             <p ><span className='text-transparent uppercase bg-clip-text linear-2 text-[14px] font-semibold webkit-text'>Want to talk us? Say hi</span> <span>✋</span></p>
-                            <h3 className='text-[40px] font-bold leading-[52px] tracking-[-0.4px] text-white border-b border-[#ffffff4d] pb-[15px]'>hello@zex.ai</h3>
+                            <h3 className='text-[30px] lg:text-[40px] font-bold leading-[1.3] lg:leading-[52px] tracking-[-0.4px] text-white border-b border-[#ffffff4d] pb-[15px]'>hello@zex.ai</h3>
                         </div>
                         <div className='grid gap-y-[20px] grid-cols-1 sm:grid-cols-4'>
                             <div className='text-center sm:text-left'>

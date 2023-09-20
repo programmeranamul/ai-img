@@ -41,7 +41,7 @@ function Header() {
 
     return (
         <>
-            <div className='flex justify-between h-[84px] items-center'>
+            <div className='flex justify-between h-[70px] sm:h-[84px] items-center'>
                 <a href='/'><img src={logo} alt="" /></a>
                 <div className=' items-center lg:gap-x-[30px] xl:gap-x-[40px] hidden lg:flex'>
 
@@ -53,7 +53,7 @@ function Header() {
                     <a className='text-[#212121] h-[40px] w-[130px] inline-flex items-center justify-center bg-[#FFFFFF] text-[14px] font-bold rounded-full ' href='/'>Get started</a>
                 </div>
                 <div className='block lg:hidden'>
-                    <img onClick={() => showMobileMenu(true)} src={menuIcon} alt='' className='bg-white' />
+                    <img onClick={() => showMobileMenu(true)} src={menuIcon} alt='' className='' />
                 </div>
 
                 <div className={`bg-[#111111] fixed h-full w-full top-0 left-0 right-0 bottom-0 z-[999] ${mobileMenu ? "block lg:hidden" : "hidden"} `}>

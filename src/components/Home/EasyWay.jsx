@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function EasyWay() {
     return (
-        <div className='pt-[70px] lg:pt-[120px] pb-[80px] lg:pb-[120px]  bg-[#111111]'>
+        <div className='pt-[50px] sm:pt-[70px] lg:pt-[120px] pb-[40px] md:pb-[80px] lg:pb-[120px]  bg-[#111111]'>
             <div className='container'>
                 <div className='flex flex-col lg:flex-row items-center gap-x-[130px] gap-y-[30px]'>
                     <div className='flex gap-x-[15px]  w-full lg:w-[50%]'>

@@ -68,11 +68,11 @@ export default function HomePage() {
     return (
 
         <>
-            <div className="home-hero-bg bg-cover relative pb-[300px] md:pb-[350px]  overflow-hidden">
+            <div className="home-hero-bg bg-cover relative pb-[350px] md:pb-[350px]  overflow-hidden">
                 <div className='container'>
                     <Header />
 
-                    <div className='pt-[90px]'>
+                    <div className='pt-[30px] sm:pt-[90px]'>
                         <div className='max-w-[917px] mx-auto'>
                             <h1 className='text-[50px] lg:text-[80px] font-bold leading-[1.2] lg:leading-[94px] tracking-[-1px] text-white text-center'><span className='block'>Generate image</span>
                                 <span className='block'>with Zex.ai</span></h1>
@@ -86,16 +86,20 @@ export default function HomePage() {
                 </div>
 
 
-                <div className='pt-[10px] absolute bottom-[-55px] w-full'>
-                    <div className='flex  gap-x-[30px] justify-center '>
-                        {
-                            imgList.map((el, i) => <div key={i} className={`m-flex order-${el.order} ${el.marginClass}`}>
-                                <img className=' img-reflection mt-[-30px] ' src={heroimg3} alt='' />
-                            </div>)
-                        }
+                
 
-                    </div>
+                <div className='pt-[10px] absolute bottom-[-55px] w-full'>
+                <div className='flex  gap-x-[30px] justify-center '>
+                    {
+                        imgList.map((el, i) => <div key={i} className={`m-flex  ${el.marginClass}`}>
+                            <img className=' img-reflection mt-[-30px] ' src={heroimg3} alt='' />
+                        </div>)
+                    }
+
                 </div>
+            </div>
+
+                
 
                 <div className='h-[200px] w-full absolute bottom-0 reflection-overlay'>
                 </div>

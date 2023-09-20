@@ -33,7 +33,7 @@ const data = [
 
 function YourDream() {
     return (
-        <div className='bg-[#111111] pt-[80px] lg:pt-[120px] pb-[65px]'>
+        <div className='bg-[#111111] pt-[50px] md:pt-[80px] lg:pt-[120px] pb-[65px]'>
             <div className='container'>
                 <div className='text-center mb-[38px] lg:mb-[48px]'>
                     <h5 className="text-transparent uppercase bg-clip-text linear-2 text-[14px] font-semibold webkit-text">FEATURES</h5>

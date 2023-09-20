@@ -11,7 +11,7 @@ function Video() {
                 <img className=' w-[200px]' src={starIcon} alt='' />
             </div>
             <div className='home-video-bg bg-no-repeat bg-cover'>
-                <div className='container pt-[80px]'>
+                <div className='container pt-[40px] md:pt-[80px]'>
                     <div>
                         <div className='flex flex-col lg:flex-row mb-[30px] lg:mb-[48px] gap-x-[30px] items-center'>
                             <div className='w-full lg:w-[50%]'>

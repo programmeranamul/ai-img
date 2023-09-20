@@ -24,7 +24,7 @@ function NewsArticle() {
                 <div className='flex mb-[30px] lg:mb-[40px] flex-col lg:flex-row justify-between gap-y-[15px] lg:items-center'>
                     <div className=''>
                         <h5 class="text-transparent uppercase bg-clip-text linear-2 text-[14px] font-semibold webkit-text">FROM OUR BLOG</h5>
-                        <h2 class="text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">News & articles</h2>
+                        <h2 class="text-[35px] lg:text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">News & articles</h2>
                     </div>
                     <div className=''>
                         <Link to="/" class="border-1 inline-flex h-[46px] w-[116px] p-[2px] rounded-full   border-gradient" >

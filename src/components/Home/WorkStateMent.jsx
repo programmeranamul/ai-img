@@ -22,7 +22,7 @@ const data = [
 function WorkStateMent() {
     return (
         <div className='bg-[#111111] pt-[48px] '>
-            <div className='container border-b border-[#ffffff4d] pb-[48px]'>
+            <div className='container border-b border-[#ffffff4d] pb-[28px] md:pb-[48px]'>
                 <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 lg:place-items-center gap-y-[30px] gap-x-[20px]'>
                     {
                         data.map((el, i) => <div key={i} className=''>
