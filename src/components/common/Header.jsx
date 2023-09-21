@@ -11,7 +11,7 @@ const pageList = [
     },
     {
         pageName: "About",
-        pageUrl: "/"
+        pageUrl: "/about"
     },
     {
         pageName: "Services",
