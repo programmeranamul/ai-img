@@ -9,6 +9,7 @@ import 'swiper/css/pagination';
 import AboutPage from './pages/AboutPage';
 import ServicePage from './pages/ServicePage';
 import PricingPage from './pages/PricingPage';
+import TeamPage from './pages/TeamPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/services" element={<ServicePage />}></Route>
         <Route path="/pricing" element={<PricingPage />}></Route>
+        <Route path="/team" element={<TeamPage />}></Route>
       </Routes>
     </>
   );

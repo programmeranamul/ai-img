@@ -23,7 +23,7 @@ const pageList = [
     },
     {
         pageName: "Team",
-        pageUrl: "/"
+        pageUrl: "/team"
     },
     {
         pageName: "Blog",
