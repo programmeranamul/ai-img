@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../../images/logo.PNG"
-import menuIcon from "../../images/iocn/menu.svg"
+import menuIcon from "../../images/iocn/menu.png"
 import closeIcon from "../../images/iocn/close.png"
 
 
@@ -15,7 +15,7 @@ const pageList = [
     },
     {
         pageName: "Services",
-        pageUrl: "/"
+        pageUrl: "/services"
     },
     {
         pageName: "Pricing",
