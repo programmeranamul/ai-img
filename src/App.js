@@ -8,6 +8,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import AboutPage from './pages/AboutPage';
 import ServicePage from './pages/ServicePage';
+import PricingPage from './pages/PricingPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/services" element={<ServicePage />}></Route>
+        <Route path="/pricing" element={<PricingPage />}></Route>
       </Routes>
     </>
   );

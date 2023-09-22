@@ -35,7 +35,7 @@ function Pricing() {
                 <div className='mb-[48px]'>
                     <h2 className="text-[30px] md:text-[35px] mb-[20px] text-center lg:text-[48px] leading-[1.2] font-bold text-white tracking-[-0.6px]">Pricing</h2>
 
-                    <div className='flex gap-x-[20px] justify-center items-center'>
+                    <div className='flex flex-col sm:flex-row gap-y-[10px] gap-x-[20px] justify-center items-center'>
                         <span className='text-white text-[20px] font-bold leading-[32px]'>Pay Monthly</span>
                         <div class="relative" onClick={() => setChecked(!checked)}>
                             <input

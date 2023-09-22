@@ -19,7 +19,7 @@ const pageList = [
     },
     {
         pageName: "Pricing",
-        pageUrl: "/"
+        pageUrl: "/pricing"
     },
     {
         pageName: "Team",
