@@ -104,3 +104,15 @@
 .m-flex{
   flex: 0 0 auto;
 }
+
+.blog-d h2,h3,h4,h5,h6{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.blog-d p{
+  color: #DADADA;
+  margin-bottom: 13px;
+}
